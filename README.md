@@ -5,7 +5,7 @@ Start pgadmin container in background:  `./start_pgadmin.sh`
 
 Open `http://localhost`.
 
-Use
+Credentials
   - username: `admin`
   - password: `password`
 
