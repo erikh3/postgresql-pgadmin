@@ -1,6 +1,6 @@
 # Requirements:
 
-This project expect installed [Docker](https://www.docker.com/) on your system.
+This project expects installed [Docker](https://www.docker.com/) on your system.
 
 # Start:
 
