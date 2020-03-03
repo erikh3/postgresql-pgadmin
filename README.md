@@ -17,7 +17,7 @@ Add New Server:
     - Username: `postgres`
     - Password: (leave empty)
 
-Click Save
+Click *Save*
 
 Database is running on port `5432`.
 Pgadmin is running on port `80`.
