@@ -1,0 +1,1 @@
+docker run -d --rm --name pgadmin4 -v pgadmin4:/var/lib/pgadmin -v pgadmin4-servers:/pgadmin4/servers.json --network host -e PGADMIN_DEFAULT_EMAIL=admin -e PGADMIN_DEFAULT_PASSWORD=password -p 80:80 dpage/pgadmin4:latest
