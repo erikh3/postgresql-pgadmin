@@ -1,8 +1,8 @@
-# Requirements:
+# Requirements
 
 This project expects installed [Docker](https://www.docker.com/) on your system.
 
-# Start:
+# Start
 
 Start database container in background: `./start_db.sh`
 Start pgadmin container in background:  `./start_pgadmin.sh`
