@@ -1,21 +1,27 @@
 # Start:
 
-`./start_db.sh`
-`./start_pgadmin.sh`
+Start database container in background: `./start_db.sh`
+Start pgadmin container in background:  `./start_pgadmin.sh`
 
-Open `http://localhost`. Username `admin`, password `password`.
+Open `http://localhost`.
+
+Use
+  - username: `admin`
+  - password: `password`
+
 Add New Server:
-  - General ->
-    - Name: <any string>
-  - Connection ->
+  - General
+    - Name: &lt;any string&gt;
+  - Connection
     - Host: `localhost`
     - Username: `postgres`
-    - Password: `` (empty)
+    - Password: (leave empty)
+
 Click Save
 
-# Stop
+# Stop (stops both containers)
 `./stop_pgadmin.sh`
 `./stop_db.sh`
 
-# Cleanup
+# Cleanup (removes any persistent data)
 `./clean.sh`
