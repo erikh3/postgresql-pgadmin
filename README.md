@@ -19,6 +19,9 @@ Add New Server:
 
 Click Save
 
+Database is running on port `5432`.
+Pgadmin is running on port `80`.
+
 # Stop (stops both containers)
 `./stop_pgadmin.sh`
 `./stop_db.sh`
