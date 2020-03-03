@@ -1,3 +1,7 @@
+# Requirements:
+
+This project expect installed [Docker](https://www.docker.com/) on your system.
+
 # Start:
 
 Start database container in background: `./start_db.sh`
